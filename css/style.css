@@ -1,0 +1,27 @@
+.overlay{
+            position: absolute;
+            bottom: 0; margin-left: 30px;
+            opacity: 0;
+            transition: .9s ease; cursor: pointer;
+            font-size: 25px;
+            padding: 0px;
+          }
+p a{
+  text-decoration: none;
+}
+      .card:hover .overlay {opacity: 1; padding-bottom: 20px;}
+      
+
+      /*For Footer*/
+      footer{background-color:#F3F7E3; 
+              padding: 30px 0 0 30px; 
+              box-sizing: border-box; 
+              }
+
+      button:hover{opacity: 0.5;transition: 2s ease;}
+      
+
+      /*For Responsive*/
+      @media screen and (max-width: 1000px){.carousel-item{margin-top: 0px;}} /*not effect*/
+      @media screen and (max-width: 800px){.carousel-item{margin-top: 10%;} .card{margin-top: 20%;}}
+      @media screen and (max-width: 600px){.carousel-item{margin-top: 30%;} .card{margin-top: 30%;}}
